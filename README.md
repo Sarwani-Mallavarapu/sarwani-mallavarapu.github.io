@@ -7,7 +7,7 @@ Static HTML, CSS and JavaScript. No database and no build step.
 
 | Item | What it is |
 |---|---|
-| `site/` | The website. This folder is what goes on the web server. |
+| Website files (top level, plus `assets/`) | The website. These are what go on the web server. |
 | `START_PREVIEW.bat` | Double-click to preview the site on this computer, redirects included. |
 | `preview_server.py` | The small Python program the preview uses. |
 | `URL_MAP.md` | Every old V1 address and where it goes now. |
@@ -19,11 +19,11 @@ Static HTML, CSS and JavaScript. No database and no build step.
 2. The browser opens `http://127.0.0.1:8000/`. Keep the black window open while previewing.
 3. Try an old address such as `http://127.0.0.1:8000/aboutus.html` to see a redirect work.
 
-Opening `site/index.html` directly also works, but redirects then use the slower fallback pages.
+Opening `index.html` directly also works, but redirects then use the slower fallback pages.
 
 ## Changing things in one place
 
-Everything below is in **`site/assets/site-config.js`**. Edit, save, refresh the browser (Ctrl + F5).
+Everything below is in **`assets/site-config.js`**. Edit, save, refresh the browser (Ctrl + F5).
 
 | To change | Edit |
 |---|---|
@@ -45,14 +45,14 @@ Other single places:
 
 | To change | Edit |
 |---|---|
-| Menu and footer links | `site/assets/site-nav.js` |
-| Colours and fonts | the `:root` block at the top of `site/assets/site.css` |
-| Photographs | replace the file in `site/assets/images/` with a new one of the same name |
-| Redirects | the list in `site/web.config` |
+| Menu and footer links | `assets/site-nav.js` |
+| Colours and fonts | the `:root` block at the top of `assets/site.css` |
+| Photographs | replace the file in `assets/images/` with a new one of the same name |
+| Redirects | the list in `web.config` |
 
 ### Images and where they are used
 
-All images are in `site/assets/`. Replace a file with another of the same name and every page that uses it updates.
+All images are in `assets/`. Replace a file with another of the same name and every page that uses it updates.
 
 | File | Used for |
 |---|---|
@@ -85,7 +85,7 @@ All images are in `site/assets/`. Replace a file with another of the same name a
 
 ## Moving to Windows / IIS
 
-1. Copy the **contents of `site/`** to the web root of the IIS site.
+1. Copy the **website files (everything except the preview and docs files)** to the web root of the IIS site.
 2. Install the IIS **URL Rewrite** module. `web.config` needs it; without it IIS shows error 500.19.
 3. The redirects assume the site sits at the root of the domain, not in a sub-folder.
 4. `web.config` has not been run on a real IIS server yet. Test these on staging: an old address (`/aboutus.html`), a missing page (should show the 404 page) and the fonts.
@@ -98,4 +98,4 @@ With `formEndpoint` empty, the form opens the visitor's email program with the m
 
 ## Fonts
 
-Open Sans and Source Serif 4 are stored in `site/assets/fonts/` (SIL Open Font License), so the site makes no calls to outside servers.
+Open Sans and Source Serif 4 are stored in `assets/fonts/` (SIL Open Font License), so the site makes no calls to outside servers.

@@ -3,12 +3,12 @@
 Run:  python preview_server.py        (or double-click START_PREVIEW.bat)
 Then open http://127.0.0.1:8000/
 
-The redirects are read from site/web.config, the same file IIS will use,
+The redirects are read from web.config, the same file IIS will use,
 so what you test here is what the live server will do.
 """
 import http.server, os, re, sys, webbrowser, xml.etree.ElementTree as ET
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "site")
+ROOT = os.path.dirname(os.path.abspath(__file__))
 PORT = next((int(a) for a in sys.argv[1:] if a.isdigit()), 8000)
 
 def load_redirects():

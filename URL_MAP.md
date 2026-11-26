@@ -7,7 +7,7 @@ Every address from the old (V1) website and what happens to it in the new build.
 - Permanent (301) redirects: **21**
 - Of the 46 addresses V2 left unmapped: **28** are live pages again and **18** are 301 redirects. None returns "not found".
 
-The redirects are defined once, in `site/web.config`. Two more addresses that only existed in V2 (`powerrda.html`, `powerassetmanagement.html`) are redirected there as well.
+The redirects are defined once, in `web.config`. Two more addresses that only existed in V2 (`powerrda.html`, `powerassetmanagement.html`) are redirected there as well.
 
 | V1 address | Unmapped in V2 | New build | Note |
 |---|---|---|---|
