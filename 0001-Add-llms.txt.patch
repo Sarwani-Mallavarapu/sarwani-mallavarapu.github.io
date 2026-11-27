@@ -1,0 +1,50 @@
+From 74ad9809926b2d962cca8661ce663447aa934b26 Mon Sep 17 00:00:00 2001
+From: Sarwani Mallavarapu <sarwani-mallavarapu@users.noreply.github.com>
+Date: Fri, 27 Nov 2026 22:07:54 +0530
+Subject: [PATCH] Add llms.txt
+
+---
+ llms.txt | 31 +++++++++++++++++++++++++++++++
+ 1 file changed, 31 insertions(+)
+ create mode 100644 llms.txt
+
+diff --git a/llms.txt b/llms.txt
+new file mode 100644
+index 0000000..bab11b6
+--- /dev/null
++++ b/llms.txt
+@@ -0,0 +1,31 @@
++# GECE (Global Energy Consulting Engineers)
++
++> GECE is a technology, consulting and GIS firm serving power utilities since 1995, with the POWER suite of utility software, consultancy, IT services and GIS services for utilities in India, the Middle East and Africa.
++
++## Company
++
++- [About GECE](https://sarwani-mallavarapu.github.io/about.html): Background of the firm, founded in 1995, and the services it offers.
++- [Industries](https://sarwani-mallavarapu.github.io/industries.html): The sectors served: power, gas, water, sewerage and urban planning.
++- [Contact](https://sarwani-mallavarapu.github.io/contact.html): Registered office in Hyderabad, India, and how to get in touch.
++- [Certifications](https://sarwani-mallavarapu.github.io/certifications.html): OGC compliance certificate for POWERGIS 8.0.
++
++## Products
++
++- [POWER suite of utility software](https://sarwani-mallavarapu.github.io/products.html): The full list of GECE POWER products for power utilities.
++- [POWERGIS: Geographic Information System](https://sarwani-mallavarapu.github.io/powergis.html): GIS for distribution and transmission networks, with an OGC-compliant engine.
++- [POWEREMS: Energy Management System](https://sarwani-mallavarapu.github.io/powerems.html): Real-time energy management for the power system.
++
++## Services
++
++- [Solutions](https://sarwani-mallavarapu.github.io/solutions.html): Power utility solutions across GIS, SCADA, asset management and related areas.
++- [Consultancy Services](https://sarwani-mallavarapu.github.io/consultancy.html): Consulting across utility operations, infrastructure projects and sustainable development.
++- [IT Services](https://sarwani-mallavarapu.github.io/it-services.html): Software capabilities and implementation for power utilities.
++- [GIS Services](https://sarwani-mallavarapu.github.io/gis-services.html): Mapping of electrical utility networks and related GIS work.
++- [Web Application Development](https://sarwani-mallavarapu.github.io/web-app-development.html): Full-lifecycle enterprise web applications on open-source and commercial stacks.
++- [SCADA Automation](https://sarwani-mallavarapu.github.io/scada.html): SCADA strategy, design, procurement and integration with GIS, EMS and DMS.
++- [Cloud Technology](https://sarwani-mallavarapu.github.io/cloud.html): A cloud-delivered Smart Distribution Management System.
++
++## Optional
++
++- [Sitemap](https://sarwani-mallavarapu.github.io/sitemap.html): Full list of pages on the site.
++- [XML sitemap](https://sarwani-mallavarapu.github.io/sitemap.xml): Machine-readable list of pages.
+-- 
+2.43.0
+
