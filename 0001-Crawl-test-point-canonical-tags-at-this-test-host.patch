@@ -1,0 +1,1361 @@
+From d99cc56726a5c8825dd783fc2cdda9a8653bf5d6 Mon Sep 17 00:00:00 2001
+From: Sarwani Mallavarapu <sarwani-mallavarapu@users.noreply.github.com>
+Date: Fri, 27 Nov 2026 17:41:20 +0530
+Subject: [PATCH] Crawl test: point canonical tags at this test host
+
+---
+ 404.html                                           | 6 +++---
+ Test.html                                          | 2 +-
+ about.html                                         | 6 +++---
+ aboutus.html                                       | 2 +-
+ achievements.html                                  | 2 +-
+ ai-for-utilities.html                              | 6 +++---
+ certifications.html                                | 6 +++---
+ clients.html                                       | 6 +++---
+ cloud.html                                         | 6 +++---
+ commercial-loss-management.html                    | 2 +-
+ construction.html                                  | 2 +-
+ consultancy.html                                   | 6 +++---
+ contact.html                                       | 6 +++---
+ contactus.html                                     | 2 +-
+ crm.html                                           | 6 +++---
+ customerAudit.html                                 | 6 +++---
+ customerBilling.html                               | 6 +++---
+ data-center.html                                   | 6 +++---
+ data-conversion-migration-and-maintenance.html     | 6 +++---
+ data-model-development.html                        | 6 +++---
+ dataAnalytics.html                                 | 6 +++---
+ date-center.html                                   | 2 +-
+ demand-side-management.html                        | 6 +++---
+ downloads.html                                     | 2 +-
+ enterprise-asset-management.html                   | 6 +++---
+ enterprise-gis.html                                | 6 +++---
+ feedback.html                                      | 2 +-
+ footer.html                                        | 2 +-
+ gallery.html                                       | 2 +-
+ gis-services.html                                  | 6 +++---
+ gps-mapping.html                                   | 6 +++---
+ header.html                                        | 2 +-
+ index.html                                         | 6 +++---
+ industries.html                                    | 6 +++---
+ insights.html                                      | 6 +++---
+ it-services.html                                   | 6 +++---
+ long-term-load-forecast.html                       | 6 +++---
+ long-term-planning.html                            | 2 +-
+ microgrid.html                                     | 2 +-
+ news.html                                          | 2 +-
+ open-access.html                                   | 6 +++---
+ partners.html                                      | 2 +-
+ photogrammetry-and-satellite-image-processing.html | 6 +++---
+ power-evacuation-studies.html                      | 6 +++---
+ power-trading.html                                 | 6 +++---
+ powerCRM.html                                      | 2 +-
+ poweramr.html                                      | 6 +++---
+ powerasset.html                                    | 6 +++---
+ powerassetmanagement.html                          | 2 +-
+ poweraudit.html                                    | 6 +++---
+ powercustomer.html                                 | 6 +++---
+ powerda.html                                       | 2 +-
+ powerdas.html                                      | 6 +++---
+ powerems-backup.html                               | 2 +-
+ powerems.html                                      | 6 +++---
+ powergis.html                                      | 6 +++---
+ powermbc.html                                      | 6 +++---
+ powernet.html                                      | 6 +++---
+ poweroutage.html                                   | 2 +-
+ powerproject.html                                  | 6 +++---
+ powerrda-backup.html                               | 2 +-
+ powerrda.html                                      | 2 +-
+ powertcm.html                                      | 6 +++---
+ powertrans.html                                    | 6 +++---
+ products.html                                      | 6 +++---
+ project-management.html                            | 6 +++---
+ renewable-energy.html                              | 6 +++---
+ scada.html                                         | 6 +++---
+ sitemap.html                                       | 6 +++---
+ smart-device-mobile-applications.html              | 6 +++---
+ smart-grid.html                                    | 6 +++---
+ smart-grids.html                                   | 6 +++---
+ smart-meter-solutions.html                         | 6 +++---
+ solutions.html                                     | 6 +++---
+ technical-loss-management.html                     | 6 +++---
+ web-app-development.html                           | 6 +++---
+ 76 files changed, 182 insertions(+), 182 deletions(-)
+
+diff --git a/404.html b/404.html
+index 7047d1c..e4575bf 100644
+--- a/404.html
++++ b/404.html
+@@ -6,13 +6,13 @@
+ <title>Page not found | GECE</title>
+ <meta name="description" content="Page not found.">
+ <meta name="robots" content="noindex,follow">
+-<link rel="canonical" href="https://www.geceindia.com/404.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/404.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Page not found | GECE">
+ <meta property="og:description" content="Page not found.">
+-<meta property="og:url" content="https://www.geceindia.com/404.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/404.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/Test.html b/Test.html
+index 1093a3a..b93573a 100644
+--- a/Test.html
++++ b/Test.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
+diff --git a/about.html b/about.html
+index 5deb54c..d5c98a8 100644
+--- a/about.html
++++ b/about.html
+@@ -6,13 +6,13 @@
+ <title>About GECE | Global Energy Consulting Engineers, since 1995</title>
+ <meta name="description" content="GECE is a technology, consulting and innovation firm serving energy enterprises since 1995, delivering software solutions and IT services, consulting services and GIS services.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/about.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/about.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="About GECE | Global Energy Consulting Engineers, since 1995">
+ <meta property="og:description" content="GECE is a technology, consulting and innovation firm serving energy enterprises since 1995, delivering software solutions and IT services, consulting services and GIS services.">
+-<meta property="og:url" content="https://www.geceindia.com/about.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/about.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/aboutus.html b/aboutus.html
+index 1e0231b..c92d775 100644
+--- a/aboutus.html
++++ b/aboutus.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/about.html"><meta http-equiv="refresh" content="0; url=about.html"><script>location.replace("about.html"+location.hash)</script></head><body><p>This page has moved to <a href="about.html">about.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/about.html"><meta http-equiv="refresh" content="0; url=about.html"><script>location.replace("about.html"+location.hash)</script></head><body><p>This page has moved to <a href="about.html">about.html</a>.</p></body></html>
+diff --git a/achievements.html b/achievements.html
+index c63d9ca..bbb0803 100644
+--- a/achievements.html
++++ b/achievements.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/certifications.html"><meta http-equiv="refresh" content="0; url=certifications.html"><script>location.replace("certifications.html"+location.hash)</script></head><body><p>This page has moved to <a href="certifications.html">certifications.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/certifications.html"><meta http-equiv="refresh" content="0; url=certifications.html"><script>location.replace("certifications.html"+location.hash)</script></head><body><p>This page has moved to <a href="certifications.html">certifications.html</a>.</p></body></html>
+diff --git a/ai-for-utilities.html b/ai-for-utilities.html
+index e01d7bb..3fdf103 100644
+--- a/ai-for-utilities.html
++++ b/ai-for-utilities.html
+@@ -6,13 +6,13 @@
+ <title>AI for Utilities | Digital Twin, Predictive Maintenance &amp; Analytics | GECE</title>
+ <meta name="description" content="Explore AI for power utilities, including digital twin concepts, predictive maintenance, smart meter analytics, load forecasting, anomaly detection and network intelligence.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/ai-for-utilities.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/ai-for-utilities.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="AI for Utilities | Digital Twin, Predictive Maintenance &amp; Analytics | GECE">
+ <meta property="og:description" content="Explore AI for power utilities, including digital twin concepts, predictive maintenance, smart meter analytics, load forecasting, anomaly detection and network intelligence.">
+-<meta property="og:url" content="https://www.geceindia.com/ai-for-utilities.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/network-map.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/ai-for-utilities.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/network-map.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/certifications.html b/certifications.html
+index 80d93f2..be95f9a 100644
+--- a/certifications.html
++++ b/certifications.html
+@@ -6,13 +6,13 @@
+ <title>Certifications | OGC-compliant POWERGIS | GECE</title>
+ <meta name="description" content="POWERGIS® 8.0 by Global Energy Consulting Engineers is certified compliant with the Open Geospatial Consortium (OGC) Simple Features SQL specification, version 1.1.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/certifications.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/certifications.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Certifications | GECE">
+ <meta property="og:description" content="POWERGIS® 8.0 by Global Energy Consulting Engineers is certified compliant with the Open Geospatial Consortium (OGC) Simple Features SQL specification, version 1.1.">
+-<meta property="og:url" content="https://www.geceindia.com/certifications.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/certifications.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/clients.html b/clients.html
+index 96dd23e..0d119b7 100644
+--- a/clients.html
++++ b/clients.html
+@@ -6,13 +6,13 @@
+ <title>Clients | GECE</title>
+ <meta name="description" content="Clients of Global Energy Consulting Engineers. This page is being updated.">
+ <meta name="robots" content="noindex,follow">
+-<link rel="canonical" href="https://www.geceindia.com/clients.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/clients.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Clients | GECE">
+ <meta property="og:description" content="Clients of Global Energy Consulting Engineers. This page is being updated.">
+-<meta property="og:url" content="https://www.geceindia.com/clients.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/clients.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/cloud.html b/cloud.html
+index 8b5af89..c1e53f9 100644
+--- a/cloud.html
++++ b/cloud.html
+@@ -6,13 +6,13 @@
+ <title>Cloud Technology | GECE</title>
+ <meta name="description" content="A plug-and-play Smart Distribution Management System delivered as a cloud service.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/cloud.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/cloud.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Cloud Technology | GECE">
+ <meta property="og:description" content="A plug-and-play Smart Distribution Management System delivered as a cloud service.">
+-<meta property="og:url" content="https://www.geceindia.com/cloud.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/globe.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/cloud.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/globe.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/commercial-loss-management.html b/commercial-loss-management.html
+index f6f67a4..4aaa1af 100644
+--- a/commercial-loss-management.html
++++ b/commercial-loss-management.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/enterprise-asset-management.html"><meta http-equiv="refresh" content="0; url=enterprise-asset-management.html"><script>location.replace("enterprise-asset-management.html"+location.hash)</script></head><body><p>This page has moved to <a href="enterprise-asset-management.html">enterprise-asset-management.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/enterprise-asset-management.html"><meta http-equiv="refresh" content="0; url=enterprise-asset-management.html"><script>location.replace("enterprise-asset-management.html"+location.hash)</script></head><body><p>This page has moved to <a href="enterprise-asset-management.html">enterprise-asset-management.html</a>.</p></body></html>
+diff --git a/construction.html b/construction.html
+index 1093a3a..b93573a 100644
+--- a/construction.html
++++ b/construction.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
+diff --git a/consultancy.html b/consultancy.html
+index 91e4758..86fef71 100644
+--- a/consultancy.html
++++ b/consultancy.html
+@@ -6,13 +6,13 @@
+ <title>Consultancy Services for power utilities | GECE</title>
+ <meta name="description" content="GECE’s portfolio of consultancy services encompasses a broad domain of utility operations, infrastructure projects, sustainable development projects, IT pl">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/consultancy.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/consultancy.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Consultancy Services for power utilities | GECE">
+ <meta property="og:description" content="GECE’s portfolio of consultancy services encompasses a broad domain of utility operations, infrastructure projects, sustainable development projects, IT pl">
+-<meta property="og:url" content="https://www.geceindia.com/consultancy.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/substation-wide.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/consultancy.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/substation-wide.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/contact.html b/contact.html
+index 8702c1d..05b416d 100644
+--- a/contact.html
++++ b/contact.html
+@@ -6,13 +6,13 @@
+ <title>Contact GECE | Global Energy Consulting Engineers</title>
+ <meta name="description" content="Contact Global Energy Consulting Engineers for power utility software, consultancy and GIS services. Registered office in Hyderabad, India.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/contact.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/contact.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Contact GECE | Global Energy Consulting Engineers">
+ <meta property="og:description" content="Contact Global Energy Consulting Engineers for power utility software, consultancy and GIS services. Registered office in Hyderabad, India.">
+-<meta property="og:url" content="https://www.geceindia.com/contact.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/globe.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/contact.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/globe.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/contactus.html b/contactus.html
+index 13c1847..e651bd0 100644
+--- a/contactus.html
++++ b/contactus.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/contact.html"><meta http-equiv="refresh" content="0; url=contact.html"><script>location.replace("contact.html"+location.hash)</script></head><body><p>This page has moved to <a href="contact.html">contact.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/contact.html"><meta http-equiv="refresh" content="0; url=contact.html"><script>location.replace("contact.html"+location.hash)</script></head><body><p>This page has moved to <a href="contact.html">contact.html</a>.</p></body></html>
+diff --git a/crm.html b/crm.html
+index 8c3b676..363d0c0 100644
+--- a/crm.html
++++ b/crm.html
+@@ -6,13 +6,13 @@
+ <title>Customer Relationship Management | GECE</title>
+ <meta name="description" content="Contact-centre, location-based and mobile CRM for utility customers.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/crm.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/crm.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Customer Relationship Management | GECE">
+ <meta property="og:description" content="Contact-centre, location-based and mobile CRM for utility customers.">
+-<meta property="og:url" content="https://www.geceindia.com/crm.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/devices.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/crm.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/devices.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/customerAudit.html b/customerAudit.html
+index 3178fcf..c1b87ca 100644
+--- a/customerAudit.html
++++ b/customerAudit.html
+@@ -6,13 +6,13 @@
+ <title>Customer Audit and Theft Detection | GECE</title>
+ <meta name="description" content="Energy accounting methods that locate commercial loss and theft.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/customerAudit.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/customerAudit.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Customer Audit and Theft Detection | GECE">
+ <meta property="og:description" content="Energy accounting methods that locate commercial loss and theft.">
+-<meta property="og:url" content="https://www.geceindia.com/customerAudit.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/customerAudit.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/customerBilling.html b/customerBilling.html
+index 327fcc9..99ecc2e 100644
+--- a/customerBilling.html
++++ b/customerBilling.html
+@@ -6,13 +6,13 @@
+ <title>Billing and Collection System | GECE</title>
+ <meta name="description" content="Customer billing, on-line payment and collection systems, from data clean-up to operation.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/customerBilling.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/customerBilling.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Billing and Collection System | GECE">
+ <meta property="og:description" content="Customer billing, on-line payment and collection systems, from data clean-up to operation.">
+-<meta property="og:url" content="https://www.geceindia.com/customerBilling.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/customerBilling.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/data-center.html b/data-center.html
+index 15c03c2..e3c5dd6 100644
+--- a/data-center.html
++++ b/data-center.html
+@@ -6,13 +6,13 @@
+ <title>Data Centres | GECE</title>
+ <meta name="description" content="Requirement analysis, design, construction and commissioning of utility data centres.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/data-center.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/data-center.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Data Centres | GECE">
+ <meta property="og:description" content="Requirement analysis, design, construction and commissioning of utility data centres.">
+-<meta property="og:url" content="https://www.geceindia.com/data-center.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/network-map.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/data-center.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/network-map.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/data-conversion-migration-and-maintenance.html b/data-conversion-migration-and-maintenance.html
+index ff26b2f..0fdd7c5 100644
+--- a/data-conversion-migration-and-maintenance.html
++++ b/data-conversion-migration-and-maintenance.html
+@@ -6,13 +6,13 @@
+ <title>Data Conversion, Migration and Maintenance | GECE</title>
+ <meta name="description" content="Geo-data conversion, clean-up and migration across the major platforms.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/data-conversion-migration-and-maintenance.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/data-conversion-migration-and-maintenance.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Data Conversion, Migration and Maintenance | GECE">
+ <meta property="og:description" content="Geo-data conversion, clean-up and migration across the major platforms.">
+-<meta property="og:url" content="https://www.geceindia.com/data-conversion-migration-and-maintenance.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/network-map.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/data-conversion-migration-and-maintenance.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/network-map.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/data-model-development.html b/data-model-development.html
+index 2380734..2e67076 100644
+--- a/data-model-development.html
++++ b/data-model-development.html
+@@ -6,13 +6,13 @@
+ <title>Data Model Development | GECE</title>
+ <meta name="description" content="Data models that map utility business processes to information systems.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/data-model-development.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/data-model-development.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Data Model Development | GECE">
+ <meta property="og:description" content="Data models that map utility business processes to information systems.">
+-<meta property="og:url" content="https://www.geceindia.com/data-model-development.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/network-map.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/data-model-development.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/network-map.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/dataAnalytics.html b/dataAnalytics.html
+index 9963451..80506e7 100644
+--- a/dataAnalytics.html
++++ b/dataAnalytics.html
+@@ -6,13 +6,13 @@
+ <title>Data Analytics | GECE</title>
+ <meta name="description" content="Visual and report-based analytics that put utility KPIs in perspective.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/dataAnalytics.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/dataAnalytics.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Data Analytics | GECE">
+ <meta property="og:description" content="Visual and report-based analytics that put utility KPIs in perspective.">
+-<meta property="og:url" content="https://www.geceindia.com/dataAnalytics.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/dataAnalytics.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/date-center.html b/date-center.html
+index d56c8b3..e45a37e 100644
+--- a/date-center.html
++++ b/date-center.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/data-center.html"><meta http-equiv="refresh" content="0; url=data-center.html"><script>location.replace("data-center.html"+location.hash)</script></head><body><p>This page has moved to <a href="data-center.html">data-center.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/data-center.html"><meta http-equiv="refresh" content="0; url=data-center.html"><script>location.replace("data-center.html"+location.hash)</script></head><body><p>This page has moved to <a href="data-center.html">data-center.html</a>.</p></body></html>
+diff --git a/demand-side-management.html b/demand-side-management.html
+index 1056fb0..cb62ff1 100644
+--- a/demand-side-management.html
++++ b/demand-side-management.html
+@@ -6,13 +6,13 @@
+ <title>Demand Side Management | GECE</title>
+ <meta name="description" content="Energy efficiency measures that modify or reduce end-user demand.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/demand-side-management.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/demand-side-management.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Demand Side Management | GECE">
+ <meta property="og:description" content="Energy efficiency measures that modify or reduce end-user demand.">
+-<meta property="og:url" content="https://www.geceindia.com/demand-side-management.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/demand-side-management.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/downloads.html b/downloads.html
+index ec83a30..2cefb6f 100644
+--- a/downloads.html
++++ b/downloads.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/products.html"><meta http-equiv="refresh" content="0; url=products.html"><script>location.replace("products.html"+location.hash)</script></head><body><p>This page has moved to <a href="products.html">products.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/products.html"><meta http-equiv="refresh" content="0; url=products.html"><script>location.replace("products.html"+location.hash)</script></head><body><p>This page has moved to <a href="products.html">products.html</a>.</p></body></html>
+diff --git a/enterprise-asset-management.html b/enterprise-asset-management.html
+index fee212b..536e763 100644
+--- a/enterprise-asset-management.html
++++ b/enterprise-asset-management.html
+@@ -6,13 +6,13 @@
+ <title>Enterprise Asset Management | GECE</title>
+ <meta name="description" content="GIS-centric asset registries and maintenance management for utilities.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/enterprise-asset-management.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/enterprise-asset-management.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Enterprise Asset Management | GECE">
+ <meta property="og:description" content="GIS-centric asset registries and maintenance management for utilities.">
+-<meta property="og:url" content="https://www.geceindia.com/enterprise-asset-management.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/switchgear.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/enterprise-asset-management.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/switchgear.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/enterprise-gis.html b/enterprise-gis.html
+index c118eea..49d3564 100644
+--- a/enterprise-gis.html
++++ b/enterprise-gis.html
+@@ -6,13 +6,13 @@
+ <title>Enterprise GIS | GECE</title>
+ <meta name="description" content="End-to-end enterprise GIS implementation built on POWERGIS®.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/enterprise-gis.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/enterprise-gis.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Enterprise GIS | GECE">
+ <meta property="og:description" content="End-to-end enterprise GIS implementation built on POWERGIS®.">
+-<meta property="og:url" content="https://www.geceindia.com/enterprise-gis.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/gis-mobile.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/enterprise-gis.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/gis-mobile.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/feedback.html b/feedback.html
+index 13c1847..e651bd0 100644
+--- a/feedback.html
++++ b/feedback.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/contact.html"><meta http-equiv="refresh" content="0; url=contact.html"><script>location.replace("contact.html"+location.hash)</script></head><body><p>This page has moved to <a href="contact.html">contact.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/contact.html"><meta http-equiv="refresh" content="0; url=contact.html"><script>location.replace("contact.html"+location.hash)</script></head><body><p>This page has moved to <a href="contact.html">contact.html</a>.</p></body></html>
+diff --git a/footer.html b/footer.html
+index 1093a3a..b93573a 100644
+--- a/footer.html
++++ b/footer.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
+diff --git a/gallery.html b/gallery.html
+index 1e0231b..c92d775 100644
+--- a/gallery.html
++++ b/gallery.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/about.html"><meta http-equiv="refresh" content="0; url=about.html"><script>location.replace("about.html"+location.hash)</script></head><body><p>This page has moved to <a href="about.html">about.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/about.html"><meta http-equiv="refresh" content="0; url=about.html"><script>location.replace("about.html"+location.hash)</script></head><body><p>This page has moved to <a href="about.html">about.html</a>.</p></body></html>
+diff --git a/gis-services.html b/gis-services.html
+index c2831b9..8ae2fd0 100644
+--- a/gis-services.html
++++ b/gis-services.html
+@@ -6,13 +6,13 @@
+ <title>GIS Services for power utilities | GECE</title>
+ <meta name="description" content="Mapping of an electrical utility network gives the utility an exact view of its network and electrical address. GECE has to its credit the successful imple">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/gis-services.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/gis-services.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="GIS Services for power utilities | GECE">
+ <meta property="og:description" content="Mapping of an electrical utility network gives the utility an exact view of its network and electrical address. GECE has to its credit the successful imple">
+-<meta property="og:url" content="https://www.geceindia.com/gis-services.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/gis-mobile.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/gis-services.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/gis-mobile.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/gps-mapping.html b/gps-mapping.html
+index 395118f..5e2e169 100644
+--- a/gps-mapping.html
++++ b/gps-mapping.html
+@@ -6,13 +6,13 @@
+ <title>GPS Mapping | GECE</title>
+ <meta name="description" content="GPS and Total Station mapping of electrical utility networks.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/gps-mapping.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/gps-mapping.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="GPS Mapping | GECE">
+ <meta property="og:description" content="GPS and Total Station mapping of electrical utility networks.">
+-<meta property="og:url" content="https://www.geceindia.com/gps-mapping.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/survey-instrument.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/gps-mapping.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/survey-instrument.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/header.html b/header.html
+index 1093a3a..b93573a 100644
+--- a/header.html
++++ b/header.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/index.html"><meta http-equiv="refresh" content="0; url=index.html"><script>location.replace("index.html"+location.hash)</script></head><body><p>This page has moved to <a href="index.html">index.html</a>.</p></body></html>
+diff --git a/index.html b/index.html
+index 1dc60ae..5d33791 100644
+--- a/index.html
++++ b/index.html
+@@ -6,13 +6,13 @@
+ <title>GECE | Power utility software, consulting and GIS since 1995</title>
+ <meta name="description" content="Global Energy Consulting Engineers (GECE) has served power utilities since 1995 with the POWER suite of software products, consultancy and GIS services across India, the Middle East and Africa.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="GECE | Power utility software, consulting and GIS since 1995">
+ <meta property="og:description" content="Global Energy Consulting Engineers (GECE) has served power utilities since 1995 with the POWER suite of software products, consultancy and GIS services across India, the Middle East and Africa.">
+-<meta property="og:url" content="https://www.geceindia.com/">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/industries.html b/industries.html
+index 2b41618..73ef14e 100644
+--- a/industries.html
++++ b/industries.html
+@@ -6,13 +6,13 @@
+ <title>Industries: power, gas, water, sewerage and urban planning | GECE</title>
+ <meta name="description" content="GECE serves power utilities, gas and water networks, sewerage systems and urban planning bodies with GIS, asset management, customer and data solutions.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/industries.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/industries.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Industries: power, gas, water, sewerage and urban planning | GECE">
+ <meta property="og:description" content="GECE serves power utilities, gas and water networks, sewerage systems and urban planning bodies with GIS, asset management, customer and data solutions.">
+-<meta property="og:url" content="https://www.geceindia.com/industries.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/industries.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/insights.html b/insights.html
+index ad9ac13..97d64e2 100644
+--- a/insights.html
++++ b/insights.html
+@@ -6,13 +6,13 @@
+ <title>Utility Technology Insights | GIS, AI, Smart Grid &amp; Digital Twin | GECE</title>
+ <meta name="description" content="Read GECE insights on Power GIS, digital twins, smart grids, AMI and MDMS, utility asset management, network analysis and AI-enabled power utility modernization.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/insights.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/insights.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Utility Technology Insights | GIS, AI, Smart Grid &amp; Digital Twin | GECE">
+ <meta property="og:description" content="Read GECE insights on Power GIS, digital twins, smart grids, AMI and MDMS, utility asset management, network analysis and AI-enabled power utility modernization.">
+-<meta property="og:url" content="https://www.geceindia.com/insights.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/insights.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/it-services.html b/it-services.html
+index 812604c..19c4ab7 100644
+--- a/it-services.html
++++ b/it-services.html
+@@ -6,13 +6,13 @@
+ <title>IT Services for power utilities | GECE</title>
+ <meta name="description" content="GECE’s software capabilities cover a broad domain of applications. Successful implementation of these projects reflects the core competencies and implement">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/it-services.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/it-services.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="IT Services for power utilities | GECE">
+ <meta property="og:description" content="GECE’s software capabilities cover a broad domain of applications. Successful implementation of these projects reflects the core competencies and implement">
+-<meta property="og:url" content="https://www.geceindia.com/it-services.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/devices.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/it-services.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/devices.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/long-term-load-forecast.html b/long-term-load-forecast.html
+index 33a15df..ada288e 100644
+--- a/long-term-load-forecast.html
++++ b/long-term-load-forecast.html
+@@ -6,13 +6,13 @@
+ <title>Long Term Load Forecast and Master Plan | GECE</title>
+ <meta name="description" content="Load forecasting and 10 to 15 year master plans for T&amp;D systems.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/long-term-load-forecast.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/long-term-load-forecast.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Long Term Load Forecast and Master Plan | GECE">
+ <meta property="og:description" content="Load forecasting and 10 to 15 year master plans for T&amp;D systems.">
+-<meta property="og:url" content="https://www.geceindia.com/long-term-load-forecast.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/substation-wide.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/long-term-load-forecast.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/substation-wide.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/long-term-planning.html b/long-term-planning.html
+index 9a387d5..e8bd3c1 100644
+--- a/long-term-planning.html
++++ b/long-term-planning.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/long-term-load-forecast.html"><meta http-equiv="refresh" content="0; url=long-term-load-forecast.html"><script>location.replace("long-term-load-forecast.html"+location.hash)</script></head><body><p>This page has moved to <a href="long-term-load-forecast.html">long-term-load-forecast.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/long-term-load-forecast.html"><meta http-equiv="refresh" content="0; url=long-term-load-forecast.html"><script>location.replace("long-term-load-forecast.html"+location.hash)</script></head><body><p>This page has moved to <a href="long-term-load-forecast.html">long-term-load-forecast.html</a>.</p></body></html>
+diff --git a/microgrid.html b/microgrid.html
+index ef1911f..0d51811 100644
+--- a/microgrid.html
++++ b/microgrid.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/smart-grids.html"><meta http-equiv="refresh" content="0; url=smart-grids.html"><script>location.replace("smart-grids.html"+location.hash)</script></head><body><p>This page has moved to <a href="smart-grids.html">smart-grids.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/smart-grids.html"><meta http-equiv="refresh" content="0; url=smart-grids.html"><script>location.replace("smart-grids.html"+location.hash)</script></head><body><p>This page has moved to <a href="smart-grids.html">smart-grids.html</a>.</p></body></html>
+diff --git a/news.html b/news.html
+index e175120..00d0ce9 100644
+--- a/news.html
++++ b/news.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/insights.html"><meta http-equiv="refresh" content="0; url=insights.html"><script>location.replace("insights.html"+location.hash)</script></head><body><p>This page has moved to <a href="insights.html">insights.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/insights.html"><meta http-equiv="refresh" content="0; url=insights.html"><script>location.replace("insights.html"+location.hash)</script></head><body><p>This page has moved to <a href="insights.html">insights.html</a>.</p></body></html>
+diff --git a/open-access.html b/open-access.html
+index 0a9bbc7..80c841b 100644
+--- a/open-access.html
++++ b/open-access.html
+@@ -6,13 +6,13 @@
+ <title>Open Access | GECE</title>
+ <meta name="description" content="Studies for intra-state and inter-state open access.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/open-access.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/open-access.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Open Access | GECE">
+ <meta property="og:description" content="Studies for intra-state and inter-state open access.">
+-<meta property="og:url" content="https://www.geceindia.com/open-access.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/substation-wide.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/open-access.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/substation-wide.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/partners.html b/partners.html
+index c63d9ca..bbb0803 100644
+--- a/partners.html
++++ b/partners.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/certifications.html"><meta http-equiv="refresh" content="0; url=certifications.html"><script>location.replace("certifications.html"+location.hash)</script></head><body><p>This page has moved to <a href="certifications.html">certifications.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/certifications.html"><meta http-equiv="refresh" content="0; url=certifications.html"><script>location.replace("certifications.html"+location.hash)</script></head><body><p>This page has moved to <a href="certifications.html">certifications.html</a>.</p></body></html>
+diff --git a/photogrammetry-and-satellite-image-processing.html b/photogrammetry-and-satellite-image-processing.html
+index 7e97ab8..cea72bf 100644
+--- a/photogrammetry-and-satellite-image-processing.html
++++ b/photogrammetry-and-satellite-image-processing.html
+@@ -6,13 +6,13 @@
+ <title>Photogrammetry and Satellite Image Processing | GECE</title>
+ <meta name="description" content="City base maps for utilities from aerial and satellite imagery.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/photogrammetry-and-satellite-image-processing.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/photogrammetry-and-satellite-image-processing.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Photogrammetry and Satellite Image Processing | GECE">
+ <meta property="og:description" content="City base maps for utilities from aerial and satellite imagery.">
+-<meta property="og:url" content="https://www.geceindia.com/photogrammetry-and-satellite-image-processing.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/africa.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/photogrammetry-and-satellite-image-processing.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/africa.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/power-evacuation-studies.html b/power-evacuation-studies.html
+index 20980df..06b1553 100644
+--- a/power-evacuation-studies.html
++++ b/power-evacuation-studies.html
+@@ -6,13 +6,13 @@
+ <title>Power Evacuation Studies | GECE</title>
+ <meta name="description" content="Load flow, short circuit and stability studies for evacuating generation.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/power-evacuation-studies.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/power-evacuation-studies.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Power Evacuation Studies | GECE">
+ <meta property="og:description" content="Load flow, short circuit and stability studies for evacuating generation.">
+-<meta property="og:url" content="https://www.geceindia.com/power-evacuation-studies.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/power-evacuation-studies.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/power-trading.html b/power-trading.html
+index bb47ae4..418369f 100644
+--- a/power-trading.html
++++ b/power-trading.html
+@@ -6,13 +6,13 @@
+ <title>Power Market | GECE</title>
+ <meta name="description" content="Analytical support for power purchase and trading decisions.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/power-trading.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/power-trading.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Power Market | GECE">
+ <meta property="og:description" content="Analytical support for power purchase and trading decisions.">
+-<meta property="og:url" content="https://www.geceindia.com/power-trading.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/substation-wide.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/power-trading.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/substation-wide.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powerCRM.html b/powerCRM.html
+index b8f51b9..347c8c3 100644
+--- a/powerCRM.html
++++ b/powerCRM.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/crm.html"><meta http-equiv="refresh" content="0; url=crm.html"><script>location.replace("crm.html"+location.hash)</script></head><body><p>This page has moved to <a href="crm.html">crm.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/crm.html"><meta http-equiv="refresh" content="0; url=crm.html"><script>location.replace("crm.html"+location.hash)</script></head><body><p>This page has moved to <a href="crm.html">crm.html</a>.</p></body></html>
+diff --git a/poweramr.html b/poweramr.html
+index c3abc4a..17024a9 100644
+--- a/poweramr.html
++++ b/poweramr.html
+@@ -6,13 +6,13 @@
+ <title>POWERAMR®: Automatic Meter Reading | GECE</title>
+ <meta name="description" content="POWERAMR® brings meter data in from the field: remote reading, remote disconnect and reconnect, remote programming, tamper detection and load survey.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/poweramr.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/poweramr.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERAMR®: Automatic Meter Reading | GECE">
+ <meta property="og:description" content="POWERAMR® brings meter data in from the field: remote reading, remote disconnect and reconnect, remote programming, tamper detection and load survey.">
+-<meta property="og:url" content="https://www.geceindia.com/poweramr.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/smart-grid.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/poweramr.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/smart-grid.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powerasset.html b/powerasset.html
+index d3f249c..14374a5 100644
+--- a/powerasset.html
++++ b/powerasset.html
+@@ -6,13 +6,13 @@
+ <title>POWERASSET®: Asset Management System | GECE</title>
+ <meta name="description" content="POWERASSET® is a comprehensive tool for the management of assets, their maintenance and outages. The tool is highly flexible and facilitates extensive user ">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powerasset.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerasset.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERASSET®: Asset Management System | GECE">
+ <meta property="og:description" content="POWERASSET® is a comprehensive tool for the management of assets, their maintenance and outages. The tool is highly flexible and facilitates extensive user ">
+-<meta property="og:url" content="https://www.geceindia.com/powerasset.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/switchgear.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powerasset.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/switchgear.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powerassetmanagement.html b/powerassetmanagement.html
+index ee7471c..d93b813 100644
+--- a/powerassetmanagement.html
++++ b/powerassetmanagement.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/powerasset.html"><meta http-equiv="refresh" content="0; url=powerasset.html"><script>location.replace("powerasset.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerasset.html">powerasset.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerasset.html"><meta http-equiv="refresh" content="0; url=powerasset.html"><script>location.replace("powerasset.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerasset.html">powerasset.html</a>.</p></body></html>
+diff --git a/poweraudit.html b/poweraudit.html
+index 35ce715..b9cb569 100644
+--- a/poweraudit.html
++++ b/poweraudit.html
+@@ -6,13 +6,13 @@
+ <title>POWERAUDIT®: Energy Accounting and Audit | GECE</title>
+ <meta name="description" content="POWERAUDIT® is a power workstation for the estimation and allocation of total losses, and for load research, through accounting and audit of T&amp;D facilities.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/poweraudit.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/poweraudit.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERAUDIT®: Energy Accounting and Audit | GECE">
+ <meta property="og:description" content="POWERAUDIT® is a power workstation for the estimation and allocation of total losses, and for load research, through accounting and audit of T&amp;D facilities.">
+-<meta property="og:url" content="https://www.geceindia.com/poweraudit.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/network-map.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/poweraudit.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/network-map.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powercustomer.html b/powercustomer.html
+index 1562877..159b746 100644
+--- a/powercustomer.html
++++ b/powercustomer.html
+@@ -6,13 +6,13 @@
+ <title>POWERCUSTOMER®: New Customer Management System | GECE</title>
+ <meta name="description" content="POWERCUSTOMER® is a tool providing comprehensive new customer management. It monitors all activities from registration of the application to release of the ">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powercustomer.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powercustomer.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERCUSTOMER®: New Customer Management System | GECE">
+ <meta property="og:description" content="POWERCUSTOMER® is a tool providing comprehensive new customer management. It monitors all activities from registration of the application to release of the ">
+-<meta property="og:url" content="https://www.geceindia.com/powercustomer.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/devices.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powercustomer.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/devices.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powerda.html b/powerda.html
+index 6abd03e..776bdde 100644
+--- a/powerda.html
++++ b/powerda.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/powerdas.html"><meta http-equiv="refresh" content="0; url=powerdas.html"><script>location.replace("powerdas.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerdas.html">powerdas.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerdas.html"><meta http-equiv="refresh" content="0; url=powerdas.html"><script>location.replace("powerdas.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerdas.html">powerdas.html</a>.</p></body></html>
+diff --git a/powerdas.html b/powerdas.html
+index 9d005e7..54a13e7 100644
+--- a/powerdas.html
++++ b/powerdas.html
+@@ -6,13 +6,13 @@
+ <title>POWERDAS®: Distribution Automation | GECE</title>
+ <meta name="description" content="POWERDAS® is a workstation providing automation functions comprising network operation, outage management and network automation and switching.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powerdas.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerdas.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERDAS®: Distribution Automation | GECE">
+ <meta property="og:description" content="POWERDAS® is a workstation providing automation functions comprising network operation, outage management and network automation and switching.">
+-<meta property="og:url" content="https://www.geceindia.com/powerdas.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/smart-grid.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powerdas.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/smart-grid.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powerems-backup.html b/powerems-backup.html
+index a15d59e..fb62a5e 100644
+--- a/powerems-backup.html
++++ b/powerems-backup.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/powerems.html"><meta http-equiv="refresh" content="0; url=powerems.html"><script>location.replace("powerems.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerems.html">powerems.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerems.html"><meta http-equiv="refresh" content="0; url=powerems.html"><script>location.replace("powerems.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerems.html">powerems.html</a>.</p></body></html>
+diff --git a/powerems.html b/powerems.html
+index 427344b..eb36045 100644
+--- a/powerems.html
++++ b/powerems.html
+@@ -6,13 +6,13 @@
+ <title>POWEREMS®: Energy Management System | GECE</title>
+ <meta name="description" content="POWEREMS® is a powerful tool for real-time energy management of the power system.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powerems.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerems.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWEREMS®: Energy Management System | GECE">
+ <meta property="og:description" content="POWEREMS® is a powerful tool for real-time energy management of the power system.">
+-<meta property="og:url" content="https://www.geceindia.com/powerems.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powerems.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powergis.html b/powergis.html
+index 9492814..c1dcb87 100644
+--- a/powergis.html
++++ b/powergis.html
+@@ -6,13 +6,13 @@
+ <title>POWERGIS®: Geographic Information System | GECE</title>
+ <meta name="description" content="POWERGIS® is a powerful tool to build a Geographic Information System for distribution and transmission networks, with an OGC-compliant GIS engine.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powergis.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powergis.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERGIS®: Geographic Information System | GECE">
+ <meta property="og:description" content="POWERGIS® is a powerful tool to build a Geographic Information System for distribution and transmission networks, with an OGC-compliant GIS engine.">
+-<meta property="og:url" content="https://www.geceindia.com/powergis.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/gis-mobile.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powergis.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/gis-mobile.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powermbc.html b/powermbc.html
+index ab1d8f1..a3f9d6b 100644
+--- a/powermbc.html
++++ b/powermbc.html
+@@ -6,13 +6,13 @@
+ <title>POWERMBC®: Metering, Billing and Collection | GECE</title>
+ <meta name="description" content="POWERMBC® is a workstation providing metering, automatic meter reading, tariff, spot billing and on-line collections.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powermbc.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powermbc.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERMBC®: Metering, Billing and Collection | GECE">
+ <meta property="og:description" content="POWERMBC® is a workstation providing metering, automatic meter reading, tariff, spot billing and on-line collections.">
+-<meta property="og:url" content="https://www.geceindia.com/powermbc.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powermbc.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powernet.html b/powernet.html
+index 729a535..acb64f8 100644
+--- a/powernet.html
++++ b/powernet.html
+@@ -6,13 +6,13 @@
+ <title>POWERNET®: Distribution Network Studies | GECE</title>
+ <meta name="description" content="POWERNET® is a workstation providing advanced utilities to perform analysis, optimization and planning of distribution networks. IEEE compliant.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powernet.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powernet.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERNET®: Distribution Network Studies | GECE">
+ <meta property="og:description" content="POWERNET® is a workstation providing advanced utilities to perform analysis, optimization and planning of distribution networks. IEEE compliant.">
+-<meta property="og:url" content="https://www.geceindia.com/powernet.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/substation-wide.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powernet.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/substation-wide.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/poweroutage.html b/poweroutage.html
+index 6abd03e..776bdde 100644
+--- a/poweroutage.html
++++ b/poweroutage.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/powerdas.html"><meta http-equiv="refresh" content="0; url=powerdas.html"><script>location.replace("powerdas.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerdas.html">powerdas.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerdas.html"><meta http-equiv="refresh" content="0; url=powerdas.html"><script>location.replace("powerdas.html"+location.hash)</script></head><body><p>This page has moved to <a href="powerdas.html">powerdas.html</a>.</p></body></html>
+diff --git a/powerproject.html b/powerproject.html
+index 0348d2d..e87d178 100644
+--- a/powerproject.html
++++ b/powerproject.html
+@@ -6,13 +6,13 @@
+ <title>POWERPROJECT®: Project Estimation and Management | GECE</title>
+ <meta name="description" content="POWERPROJECT® supports utility projects from the first estimate to completion, with cost estimation, progress tracking, financial analysis and impact assess">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powerproject.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powerproject.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERPROJECT®: Project Estimation and Management | GECE">
+ <meta property="og:description" content="POWERPROJECT® supports utility projects from the first estimate to completion, with cost estimation, progress tracking, financial analysis and impact assess">
+-<meta property="og:url" content="https://www.geceindia.com/powerproject.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powerproject.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powerrda-backup.html b/powerrda-backup.html
+index ec83a30..2cefb6f 100644
+--- a/powerrda-backup.html
++++ b/powerrda-backup.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/products.html"><meta http-equiv="refresh" content="0; url=products.html"><script>location.replace("products.html"+location.hash)</script></head><body><p>This page has moved to <a href="products.html">products.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/products.html"><meta http-equiv="refresh" content="0; url=products.html"><script>location.replace("products.html"+location.hash)</script></head><body><p>This page has moved to <a href="products.html">products.html</a>.</p></body></html>
+diff --git a/powerrda.html b/powerrda.html
+index ec83a30..2cefb6f 100644
+--- a/powerrda.html
++++ b/powerrda.html
+@@ -1 +1 @@
+-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://www.geceindia.com/products.html"><meta http-equiv="refresh" content="0; url=products.html"><script>location.replace("products.html"+location.hash)</script></head><body><p>This page has moved to <a href="products.html">products.html</a>.</p></body></html>
++<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Page moved | GECE</title><link rel="canonical" href="https://sarwani-mallavarapu.github.io/products.html"><meta http-equiv="refresh" content="0; url=products.html"><script>location.replace("products.html"+location.hash)</script></head><body><p>This page has moved to <a href="products.html">products.html</a>.</p></body></html>
+diff --git a/powertcm.html b/powertcm.html
+index 92ba727..028a9d1 100644
+--- a/powertcm.html
++++ b/powertcm.html
+@@ -6,13 +6,13 @@
+ <title>POWERTCM®: Trouble Call Management System | GECE</title>
+ <meta name="description" content="POWERTCM® is a powerful tool with advanced functionality for the management and analysis of trouble calls and fuse-off calls.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powertcm.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powertcm.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERTCM®: Trouble Call Management System | GECE">
+ <meta property="og:description" content="POWERTCM® is a powerful tool with advanced functionality for the management and analysis of trouble calls and fuse-off calls.">
+-<meta property="og:url" content="https://www.geceindia.com/powertcm.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/devices.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powertcm.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/devices.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/powertrans.html b/powertrans.html
+index 50d7b66..70f263f 100644
+--- a/powertrans.html
++++ b/powertrans.html
+@@ -6,13 +6,13 @@
+ <title>POWERTRANS®: Transmission Network Studies | GECE</title>
+ <meta name="description" content="POWERTRANS® is a workstation for the analysis, planning and design of transmission networks, including market operations and project appraisal.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/powertrans.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/powertrans.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERTRANS®: Transmission Network Studies | GECE">
+ <meta property="og:description" content="POWERTRANS® is a workstation for the analysis, planning and design of transmission networks, including market operations and project appraisal.">
+-<meta property="og:url" content="https://www.geceindia.com/powertrans.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/powertrans.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/products.html b/products.html
+index 10d86bc..2eedd04 100644
+--- a/products.html
++++ b/products.html
+@@ -6,13 +6,13 @@
+ <title>POWER suite of utility software products | GECE</title>
+ <meta name="description" content="The GECE POWER suite: POWERGIS®, POWERNET®, POWERASSET®, POWERAUDIT®, POWERCUSTOMER®, POWERTCM®, POWERDAS®, POWEREMS®, POWERMBC® and more for power utilities.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/products.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/products.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWER suite of utility software products | GECE">
+ <meta property="og:description" content="The GECE POWER suite: POWERGIS®, POWERNET®, POWERASSET®, POWERAUDIT®, POWERCUSTOMER®, POWERTCM®, POWERDAS®, POWEREMS®, POWERMBC® and more for power utilities.">
+-<meta property="og:url" content="https://www.geceindia.com/products.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/switchgear.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/products.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/switchgear.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/project-management.html b/project-management.html
+index 6eb9fb0..aef516a 100644
+--- a/project-management.html
++++ b/project-management.html
+@@ -6,13 +6,13 @@
+ <title>Project Management | GECE</title>
+ <meta name="description" content="Engineering, procurement and construction management (EPCM) services.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/project-management.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/project-management.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Project Management | GECE">
+ <meta property="og:description" content="Engineering, procurement and construction management (EPCM) services.">
+-<meta property="og:url" content="https://www.geceindia.com/project-management.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/analysis.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/project-management.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/analysis.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/renewable-energy.html b/renewable-energy.html
+index 83d9e94..2e354de 100644
+--- a/renewable-energy.html
++++ b/renewable-energy.html
+@@ -6,13 +6,13 @@
+ <title>Renewable Energy | GECE</title>
+ <meta name="description" content="Solar power system design and renewable grid integration studies.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/renewable-energy.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/renewable-energy.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Renewable Energy | GECE">
+ <meta property="og:description" content="Solar power system design and renewable grid integration studies.">
+-<meta property="og:url" content="https://www.geceindia.com/renewable-energy.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/globe.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/renewable-energy.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/globe.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/scada.html b/scada.html
+index 5bff084..9b605c2 100644
+--- a/scada.html
++++ b/scada.html
+@@ -6,13 +6,13 @@
+ <title>SCADA Automation | GECE</title>
+ <meta name="description" content="SCADA strategy, design and procurement, and integration with GIS, EMS and DMS.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/scada.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/scada.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="SCADA Automation | GECE">
+ <meta property="og:description" content="SCADA strategy, design and procurement, and integration with GIS, EMS and DMS.">
+-<meta property="og:url" content="https://www.geceindia.com/scada.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/switchgear.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/scada.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/switchgear.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/sitemap.html b/sitemap.html
+index 306c87f..e56d002 100644
+--- a/sitemap.html
++++ b/sitemap.html
+@@ -6,13 +6,13 @@
+ <title>Site map | GECE</title>
+ <meta name="description" content="Site map of the Global Energy Consulting Engineers website.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/sitemap.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/sitemap.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Site map | GECE">
+ <meta property="og:description" content="Site map of the Global Energy Consulting Engineers website.">
+-<meta property="og:url" content="https://www.geceindia.com/sitemap.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/sitemap.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/smart-device-mobile-applications.html b/smart-device-mobile-applications.html
+index 067c002..b018cbb 100644
+--- a/smart-device-mobile-applications.html
++++ b/smart-device-mobile-applications.html
+@@ -6,13 +6,13 @@
+ <title>POWERMOBILE®: Smart Device and Mobile Applications | GECE</title>
+ <meta name="description" content="Android applications that take the POWER workstations to field level operations.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/smart-device-mobile-applications.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/smart-device-mobile-applications.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="POWERMOBILE®: Smart Device and Mobile Applications | GECE">
+ <meta property="og:description" content="Android applications that take the POWER workstations to field level operations.">
+-<meta property="og:url" content="https://www.geceindia.com/smart-device-mobile-applications.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/gis-mobile.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/smart-device-mobile-applications.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/gis-mobile.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/smart-grid.html b/smart-grid.html
+index 904585d..0ae8ec8 100644
+--- a/smart-grid.html
++++ b/smart-grid.html
+@@ -6,13 +6,13 @@
+ <title>Database Management Services | GECE</title>
+ <meta name="description" content="Cloud, on-site and remote database administration for utility asset and customer data.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/smart-grid.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/smart-grid.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Database Management Services | GECE">
+ <meta property="og:description" content="Cloud, on-site and remote database administration for utility asset and customer data.">
+-<meta property="og:url" content="https://www.geceindia.com/smart-grid.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/network-map.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/smart-grid.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/network-map.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/smart-grids.html b/smart-grids.html
+index 9b37246..2d2294b 100644
+--- a/smart-grids.html
++++ b/smart-grids.html
+@@ -6,13 +6,13 @@
+ <title>Smart Grids and Microgrid | GECE</title>
+ <meta name="description" content="Distribution automation, SCADA integration and smart grid project reports.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/smart-grids.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/smart-grids.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Smart Grids and Microgrid | GECE">
+ <meta property="og:description" content="Distribution automation, SCADA integration and smart grid project reports.">
+-<meta property="og:url" content="https://www.geceindia.com/smart-grids.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/smart-grid.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/smart-grids.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/smart-grid.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/smart-meter-solutions.html b/smart-meter-solutions.html
+index 5ea7480..79b350b 100644
+--- a/smart-meter-solutions.html
++++ b/smart-meter-solutions.html
+@@ -6,13 +6,13 @@
+ <title>Smart Meter Solutions, AMI, HES &amp; MDMS | GECE</title>
+ <meta name="description" content="Explore GECE smart meter solutions for electricity utilities, including AMI, AMR, Head-End Systems (HES), Meter Data Management (MDMS), meter data validation, analytics and billing integration.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/smart-meter-solutions.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/smart-meter-solutions.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Smart Meter Solutions, AMI, HES &amp; MDMS | GECE">
+ <meta property="og:description" content="Explore GECE smart meter solutions for electricity utilities, including AMI, AMR, Head-End Systems (HES), Meter Data Management (MDMS), meter data validation, analytics and billing integration.">
+-<meta property="og:url" content="https://www.geceindia.com/smart-meter-solutions.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/smart-grid.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/smart-meter-solutions.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/smart-grid.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/solutions.html b/solutions.html
+index 85e0879..342a469 100644
+--- a/solutions.html
++++ b/solutions.html
+@@ -6,13 +6,13 @@
+ <title>Power utility solutions: GIS, AMI, SCADA, asset management | GECE</title>
+ <meta name="description" content="GECE solutions and services for power utilities: the POWER product suite, IT services, consultancy and GIS services, organised by solution area.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/solutions.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/solutions.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Power utility solutions: GIS, AMI, SCADA, asset management | GECE">
+ <meta property="og:description" content="GECE solutions and services for power utilities: the POWER product suite, IT services, consultancy and GIS services, organised by solution area.">
+-<meta property="og:url" content="https://www.geceindia.com/solutions.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/solutions.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/technical-loss-management.html b/technical-loss-management.html
+index 7260563..4c75bca 100644
+--- a/technical-loss-management.html
++++ b/technical-loss-management.html
+@@ -6,13 +6,13 @@
+ <title>AT&amp;C Loss Reduction | GECE</title>
+ <meta name="description" content="Estimation and reduction of aggregate technical and commercial losses.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/technical-loss-management.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/technical-loss-management.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="AT&amp;C Loss Reduction | GECE">
+ <meta property="og:description" content="Estimation and reduction of aggregate technical and commercial losses.">
+-<meta property="og:url" content="https://www.geceindia.com/technical-loss-management.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/hero-power.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/technical-loss-management.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/hero-power.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+diff --git a/web-app-development.html b/web-app-development.html
+index 587968f..dd2b48e 100644
+--- a/web-app-development.html
++++ b/web-app-development.html
+@@ -6,13 +6,13 @@
+ <title>Web Application Development | GECE</title>
+ <meta name="description" content="Full-lifecycle enterprise web applications on open-source and commercial technology stacks.">
+ <meta name="robots" content="index,follow">
+-<link rel="canonical" href="https://www.geceindia.com/web-app-development.html">
++<link rel="canonical" href="https://sarwani-mallavarapu.github.io/web-app-development.html">
+ <meta property="og:type" content="website">
+ <meta property="og:site_name" content="GECE">
+ <meta property="og:title" content="Web Application Development | GECE">
+ <meta property="og:description" content="Full-lifecycle enterprise web applications on open-source and commercial technology stacks.">
+-<meta property="og:url" content="https://www.geceindia.com/web-app-development.html">
+-<meta property="og:image" content="https://www.geceindia.com/assets/images/devices.jpg">
++<meta property="og:url" content="https://sarwani-mallavarapu.github.io/web-app-development.html">
++<meta property="og:image" content="https://sarwani-mallavarapu.github.io/assets/images/devices.jpg">
+ <meta name="twitter:card" content="summary_large_image">
+ <meta name="theme-color" content="#0a2a43">
+ <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+-- 
+2.43.0
+
